@@ -11,11 +11,11 @@ try:
 
 	if hours <= 40.0 : 
 		normalPay = hours * rate
-	if hours > 40.0 : 
+	elif hours > 40.0 : 
 		overtime = hours * (rate/2) 
 	pay = normalPay + overtime
 	print "Total Salary: ", pay
-	 
+
 except: 
 	print "Incorrect value entered"
 
