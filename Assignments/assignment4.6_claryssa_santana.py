@@ -5,7 +5,8 @@ Assignment 4.6
 Purpose: Creating a compute pay function building off of assignment 3.1 ''' 
 
 def computePay(hours, rate):
-
+#this function computes the salary the user 
+	
 	if hours <= 40.0 : 
 		normalPay = hours * rate
 		print "Your Salary is $", normalPay
@@ -25,6 +26,5 @@ try:
 	h = float(hours)
 	r = float(rate)
 	computePay(h, r)
-
 except:
-	print "Incorrect value entered"
+	print "Oh no! You've entered an incorrect value"
