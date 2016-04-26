@@ -10,7 +10,7 @@ try:
 	fh = open(fname)
 	for line in fh:
 		line = line.upper()
-		print line
+		print line.strip()
 except:
 	print "Could not open", fname
 
