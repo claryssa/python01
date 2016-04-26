@@ -5,8 +5,6 @@ Assignment 7.3
 Purpose: Write a program that opens and reads through a file looking for and counting lines 
 of the form X-DSPAM-Confidence:    0.8475'''
 
-import pprint 
-
 totalLines = 0
 total = 0 
 values = []
