@@ -10,6 +10,12 @@ fh = open(fname)
 lst = list()
 
 for line in fh:
-print line.rstrip()
+	words = line.split()
+	for word in words:
+		if word not in lst:
+			lst.append(word)
 
-print "Not done"
+lst.sort()
+
+for word in lst:
+	print word.lower()
