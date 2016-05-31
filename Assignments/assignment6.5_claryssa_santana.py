@@ -11,7 +11,6 @@ num = text[text.find(':')+5:]
 try:
 	num = float(num)
 	print "Here is your number", num
-
 except:
 	print "Your number was not found."
 
